@@ -1,12 +1,12 @@
 {
   "name": "vue.preventMacBackScroll",
   "version": "1.0.0",
-  "description": "",
+  "description": "Prevent back page horizontal scroll on Mac OSX Lion",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["Vue", "MacOS", "Scroll event"],
   "author": "",
   "license": "ISC"
 }
