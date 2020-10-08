@@ -1,5 +1,17 @@
 # vue.preventMacBackScroll
 
+## vue 指令引入方式
+
+```js
+import * as directives from './directives'
+// register global utility directives
+Object.keys(directives).forEach(key => {
+  Vue.directive(key, directives[key])
+})
+```
+
+## 指令内容
+
 ```js
 /**
  * preventMacBackScroll
